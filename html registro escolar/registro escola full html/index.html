@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Escolar</title>
+</head>
+<body>
+    <h1>insira as informações do aluno</h1>
+    <input type="text" placeholder="Nome do aluno" required><br>
+    <input type="email" placeholder="senha" required><br>
+    <input type="date" required><br>
+    <p><td>FOTO DO ALUNO <input type="file" accept="imagem"></td></p>
+    <P><B> HORARIO DE ESTUDO</B></P>
+    <select>
+        <optgroup>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+        </optgroup>
+    </select>
+    <hr>
+    <h2>Notas Do Aluno</h2>
+    <p>Português<input type="number" min="0" max="10" required></p>
+    <p>Biologia<input type="number" min="0" max="10" required></p>
+    <p>Artes<input type="number" min="0" max="10" required></p>
+    <p>Filosofia<input type="number" min="0" max="10" required></p>
+    <p>Educaçao Fisica<input type="number" min="0" max="10" required></p>
+    <hr>
+    <h2>Contato Do Responsavel</h2>
+     <select>
+        <optgroup>
+            <option>Mãe
+            <option>Pai</option>
+            <option>Outros</option>
+            <input type="tel" pattern="[0-9]{11}" placeholder="telefone" required>
+        </optgroup>
+    </select>
+</body>
+</html>
